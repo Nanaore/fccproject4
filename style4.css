@@ -1,0 +1,84 @@
+
+  body{
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  #flex-container{
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  header{
+    font-size:2em;
+    margin-top:3em;
+  }
+  
+  nav header{
+    font-size:1.5em;
+    margin-bottom:2em;
+  }
+  
+  .sub{
+    font-size:1.5em;
+    margin-top:1em;
+  }
+  
+  nav{
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    background: rgba(192,192,192,0.5);
+    margin-right:2em;
+    padding:5em;
+  }
+  
+  nav a{
+    text-decoration:none;
+    margin-bottom:2em;
+    color:gray;
+  }
+  
+  #nav-flex{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  section p{
+    color:gray;
+  }
+  
+  ol{
+    color:gray;
+  }
+  
+  code{
+    background: rgba(192,192,192,0.5);
+    
+    
+  }
+  
+  #data_types ul{
+    font-size:1.5em;
+  }
+
+main{
+margin-left:18em;
+}
+  
+  
+  @media (max-width:768px){
+
+    nav{
+      background-color: rgba(192,192,192,0.1);
+      font-size:0.8em;
+    }
+
+    main{
+      font-size:0.8em;
+    }
+    
+    
+  
+    
+  } 
